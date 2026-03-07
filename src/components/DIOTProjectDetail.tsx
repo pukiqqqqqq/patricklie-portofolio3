@@ -1,6 +1,6 @@
 import { ArrowLeft, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import ProjectHero from './ProjectHero';
+import DIOTProjectHero from './DIOTProjectHero';
 import ProjectSection from './ProjectSection';
 import ImageCarousel from './ImageCarousel';
 import { Zap, GitBranch, Database, AlertCircle, CheckCircle, TrendingUp } from 'lucide-react';
@@ -38,7 +38,7 @@ export default function DIOTProjectDetail() {
         </Link>
       </div>
 
-      <ProjectHero />
+      <DIOTProjectHero />
 
       <ProjectSection title="Why DIOT?" background="gray">
         <div className="grid md:grid-cols-2 gap-8 items-center">
