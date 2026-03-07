@@ -1,7 +1,7 @@
 import { Calendar, User, ExternalLink } from 'lucide-react';
 import ImageCarousel from './ImageCarousel';
 
-export default function ProjectHero() {
+export default function FreshlyProjectHero() {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
