@@ -38,7 +38,7 @@ export default function DIOTProjectDetail() {
         </Link>
       </div>
 
-      <DIOTProjectHero />
+      
 
       <ProjectSection title="Why DIOT?" background="gray">
         <div className="grid md:grid-cols-2 gap-8 items-center">
